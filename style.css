@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: white;
+  color: #333;
+  background-image: url("Images/img2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  background-attachment:fixed;
+}
+
+/* Navbar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2px;
+  padding: 20px 30px;
+  background: rgb(255, 255, 255); 
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(to right, #f8f9fa, white);
+   /* display: flex; */
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+
+.logo {
+  color: rgb(247, 107, 247);
+  color: rgb(246, 105, 204);
+  font-size: 1.5rem;
+  font-weight: bold;
+  gap:5px;
+
+}
+
+.nav-links a {
+  padding: 0 40px;
+  gap: 10px;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: rgb(196, 25, 196);
+}
+
+/* Sections */
+section {
+  /* margin: 100%; */
+  padding: 100px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Hero */
+.hero {
+  background: white;
+  color: #333;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+/* Contact */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  padding: 10px;
+  border: none;
+  background: white;
+  color: rgb(9, 9, 9);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: rgb(218, 176, 218);
+  padding: 10px;
+  border: none;
+  /* background: white;
+  color: rgb(9, 9, 9); */
+  border-radius: 5px;
+  cursor: pointer;
+}
